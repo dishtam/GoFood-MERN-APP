@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = "MONGODB_URI";
+const mongoURI = MONGODB_URI;
 
 const mongoDB = () => {
   mongoose.connect(mongoURI, { useNewUrlParser: true })
