@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb+srv://rohit:rohit@gofood-mern.dpgbhem.mongodb.net/GoFood-MERN?retryWrites=true&w=majority";
+const mongoURI = "MONGODB_URI";
 
 const mongoDB = () => {
   mongoose.connect(mongoURI, { useNewUrlParser: true })
